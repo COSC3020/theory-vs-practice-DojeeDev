@@ -17,7 +17,7 @@ Add your answers to this markdown file.
 2. Differences in hardware. For example if an algorithm needs to take a square root, due to how the cpu is designed this could take a constant different amount of time depending on the hardware.
 3. The performance will depend on the implementation which asymptotic analysis can't always capture. For example it might be much faster to merge arrays for merge sort in a language like C compared to a language like python or JS.
 
-- The complexity of BST is O(n log n). O(n log 1,000) = 9966 and O(n log 10,000) = 132880. That's a percent change of 1233% so I would expect very roughly for the time to be around 5*13.33=61.66 seconds.
+- The complexity of BST is O(log n). O(log 1,000) = 9.97 and O(log 10,000) = 13.29. That's a percent change of 33.33% longer so I would expect very roughly for the time to be around $5 \cdot (1+0.33) = 6.66$ seconds.
 
 - It could be that the new items were sorted so the tree ended up with a very large height and was not balanced. Meaning that the search time was closer to that of a linked list than a BST.
 - The tests could have been run on different machines with different hardware. For example one could have a faster cpu than the other.
